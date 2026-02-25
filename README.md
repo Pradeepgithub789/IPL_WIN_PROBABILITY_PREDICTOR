@@ -1,27 +1,49 @@
 # 🏏 IPL Win Probability Predictor
 
-A Machine Learning based web application that predicts the winning probability of IPL teams during a live match.
+A Machine Learning-based web application that predicts the real-time winning probability of IPL teams during a match using historical IPL data.
 
-This project analyzes match conditions such as target score, current score, overs completed, wickets lost, and required run rate to calculate the probability of each team winning.
+This project applies data preprocessing, feature engineering, model training, and deployment using Streamlit to provide dynamic win probability predictions based on match conditions.
 
 ---
 
-## 🚀 Features
+## 🚀 Project Overview
+
+The application predicts the probability of the batting team winning a match based on:
+
+- Batting Team
+- Bowling Team
+- Venue
+- Target Score
+- Current Score
+- Overs Completed
+- Wickets Lost
+  
+
+The model is trained on historical IPL match data and deployed as an interactive web application.
+
+---
+
+## 🧠 Key Features
 
 - 📊 Real-time win probability prediction
-- 🏏 Team vs Team selection
-- 🎯 Target-based prediction
-- 📈 Dynamic probability calculation
-- 💻 Simple and interactive UI
+- 📈 Dynamic feature engineering
+- 🏏 Historical IPL dataset analysis
+- 🧮 Machine Learning model training pipeline
+- 💾 Model serialization using Joblib
+- 🌐 Interactive Streamlit web interface
+- 🗂 Modular project structure
 
 ---
 
-## 🧠 Technologies Used
+## 🛠️ Tech Stack
 
+**Programming Language**
 - Python
+
+**Libraries Used**
 - Pandas
 - NumPy
 - Scikit-learn
-- Streamlit (for web app)
-- Pickle (for model serialization)
+- Joblib
+- Streamlit
 
